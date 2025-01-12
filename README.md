@@ -8,7 +8,7 @@ There are a wide list of representions for minimal surfaces. However, the easies
 For representing minimal surfaces with graphs, we can define two graphs where an imaginary blow in them can lead to a touching surface which is known as the minimal surface. For extending graphs and periodically repeating them in space, we need the graphs themselves  (unit cells) and 3 vectros through which these graphs can be periodically repeated and build a crystal. We name them g1, g2, g3 which are technically known as generator vectors. 
 
 ### Current tool
-This repo is a simple tool for fine-tuning and generating unit cells and crystals of of minimal surfaces. The focus is on their medial axis (skeletons).
+This repo is a simple tool for fine-tuning and generating unit cells and crystals of of minimal surfaces. The focus is on their medial axis (skeletons). The focus of this repo is to build up these crystals for Gyroid, Primitive and Diamond. For learning the math behind them, read my [phD]() file.
 
 ```python
 import numpy as np
