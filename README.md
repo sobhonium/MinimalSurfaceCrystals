@@ -39,5 +39,7 @@ plotter(crystals=crystals)
 ```
 ![image](images/result_primitive.png)
 
-By running ```main.py```, you will get
+## Multiple crystals
+It also allows you to add and plot multiple crystals in one plotter. As an example,
+by running ```main.py```, you will get
 ![image](images/result1.png)
