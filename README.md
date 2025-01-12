@@ -1,5 +1,14 @@
-# MinimalSurfaceCrystals
-A simple tool for fine-tuning and generating unit cells and crystals of of minimal surfaces. The focus is on their medial axis (skeletons).
+# Minimal Surfaces
+Minimal surfaces are so interesting in that they are minimal any any location in space. Perhaps minimal surfaces and the history behind mathematically defining them are of interesting topics in math history. 
+
+## Representation of Minimal Surfaces
+There are a wide list of representions for minimal surfaces. However, the easiest is to use skeletons where two graphs are representing a minmal surface. Graphs are preferred in that they let parameterizing these shapes easier. 
+
+### Medial axis repr. of Minimal Surfaces
+For representing minimal surfaces with graphs, we can define two graphs where an imaginary blow in them can lead to a touching surface which is known as the minimal surface. For extending graphs and periodically repeating them in space, we need the graphs themselves  (unit cells) and 3 vectros through which these graphs can be periodically repeated and build a crystal. We name them g1, g2, g3 which are technically known as generator vectors. 
+
+### Current tool
+This repo is a simple tool for fine-tuning and generating unit cells and crystals of of minimal surfaces. The focus is on their medial axis (skeletons).
 
 ```python
 import numpy as np
